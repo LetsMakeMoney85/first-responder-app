@@ -1,0 +1,15 @@
+{
+  "name": "FirstResponder AI",
+  "short_name": "FirstResponder",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#ef4444",
+  "icons": [
+    {
+      "src": "https://static.vecteezy.com/system/resources/previews/023/129/685/non_2x/the-first-aid-kit-icon-typically-represents-a-collection-of-supplies-and-equipment-used-to-provide-medical-assistance-in-emergency-situations-vector.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
