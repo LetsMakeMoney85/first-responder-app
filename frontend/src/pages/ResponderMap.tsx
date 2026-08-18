@@ -2,10 +2,10 @@ import React from 'react';
 
 const ResponderMap: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Responder Map</h1>
-        <p className="text-lg text-gray-700">Real-time responder location tracking</p>
+    <div className="container">
+      <div className="card">
+        <div className="card-title">Responder Map</div>
+        <p>Real-time responder locations will be displayed on the map</p>
       </div>
     </div>
   );
