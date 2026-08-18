@@ -1,13 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import authReducer from './slices/authSlice';
-import incidentReducer from './slices/incidentSlice';
-import responderReducer from './slices/responderSlice';
+import incidentsReducer from './slices/incidentsSlice';
+import respondersReducer from './slices/respondersSlice';
 
 const store = configureStore({
   reducer: {
     auth: authReducer,
-    incidents: incidentReducer,
-    responders: responderReducer,
+    incidents: incidentsReducer,
+    responders: respondersReducer,
   },
 });
 
